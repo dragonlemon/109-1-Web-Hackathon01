@@ -112,6 +112,15 @@ body > h1{
     --bg-1: 255,177,123;
 }
 
+.Theme-myown {
+    --main: rgb(255, 135, 218);
+    --box: rgba(255, 255, 255, 0.486);
+    --text: rgb(49,46,140);
+    --hover: rgba(255, 255, 255, 0.267);
+    --bg-0: 120,126,212;
+    --bg-1: 280,26,35;
+}
+
 .ChooseTheme{
     width: 30px;
     height: 30px;
@@ -124,3 +133,4 @@ body > h1{
 #Theme-red{ background-color:rgba(215, 95, 93, 0.5); }
 #Theme-blue{ background-color: rgba(93, 215, 209, 0.5); }
 #Theme-purple{ background-color: rgba(49,46,140, 0.5); }
+#Theme-myown{ background-color: rgba(255,170,218, 0.5); }
