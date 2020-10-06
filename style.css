@@ -62,11 +62,12 @@ body > h1{
 } 
 
 .date-click{
-    background-color: rgba(0, 0, 0, 0.103)
+    color: #FFFFFF;
+    background-color: #000000;
 }
 
-.date:hover{
-    background-color: #000000
+.date:hover:not(.date-click){
+    background-color: rgba(0, 0, 0, 0.103);
 }
 
 .date{
